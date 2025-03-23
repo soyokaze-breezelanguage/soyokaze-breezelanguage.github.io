@@ -1,9 +1,5 @@
 import { Timeline, Text, Title, Container } from "@mantine/core";
 import {
-  IconGitBranch,
-  IconGitPullRequest,
-  IconGitCommit,
-  IconMessageDots,
   IconPhone,
   IconChalkboard,
   IconUsers,
@@ -14,7 +10,7 @@ export default function Flow() {
   return (
     <>
       <Container style={{ marginTop: "40px", marginBottom: "40px" }}>
-        <Title order={1} align="center" m={"xl"}>
+        <Title order={1} ta="center" m={"xl"}>
           受講までの流れ
         </Title>
         <Timeline active={1} bulletSize={24} lineWidth={2}>

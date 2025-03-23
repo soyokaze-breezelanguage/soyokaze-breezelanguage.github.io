@@ -15,7 +15,7 @@ export default function MainVisual() {
       }}
     >
       <Container>
-        <Stack spacing={0} align="center">
+        <Stack align="center">
           <Text
             size="40px"
             color="white"

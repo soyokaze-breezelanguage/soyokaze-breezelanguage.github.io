@@ -4,7 +4,7 @@ export default function Introduction() {
   return (
     <>
       <Container style={{ marginTop: "40px", marginBottom: "40px" }}>
-        <Title order={1} align="center" m={"xl"}>
+        <Title order={1} ta="center" m={"xl"}>
           紹介
         </Title>
         <Title order={3} mb={5}>

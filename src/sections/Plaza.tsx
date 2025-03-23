@@ -16,6 +16,7 @@ type PlazaItem = {
   status: string;
   title: string;
   content: string;
+  id: string;
 };
 
 export default function Plaza() {
@@ -37,7 +38,7 @@ export default function Plaza() {
 
   return (
     <Container style={{ marginTop: "40px", marginBottom: "40px" }}>
-      <Title order={1} align="center" m="xl">
+      <Title order={1} ta="center" m="xl">
         そよ風の広場
       </Title>
 
@@ -52,7 +53,7 @@ export default function Plaza() {
               onClick={() => handleCardClick(item.id)}
               style={{ cursor: "pointer" }}
             >
-              <Group position="apart" style={{ marginBottom: "10px" }}>
+              <Group style={{ marginBottom: "10px" }}>
                 <Text size="xs" color="dimmed">
                   {item.date}
                 </Text>
@@ -61,7 +62,7 @@ export default function Plaza() {
                 </Badge>
               </Group>
 
-              <Text weight={700} size="lg" style={{ marginBottom: "10px" }}>
+              <Text fw={700} size="lg" style={{ marginBottom: "10px" }}>
                 {item.title}
               </Text>
 

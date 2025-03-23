@@ -4,7 +4,7 @@ export default function Price() {
   return (
     <>
       <Container>
-        <Title order={1} align="center" m={"xl"}>
+        <Title order={1} ta="center" m={"xl"}>
           レッスン料金
         </Title>
         <Text fw={700} mb={10}>

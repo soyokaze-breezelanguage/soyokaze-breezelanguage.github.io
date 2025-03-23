@@ -16,6 +16,7 @@ type NewsItem = {
   status: string;
   title: string;
   content: string;
+  id: string;
 };
 
 export default function News() {
@@ -37,7 +38,7 @@ export default function News() {
 
   return (
     <Container style={{ marginTop: "40px", marginBottom: "40px" }}>
-      <Title order={1} align="center" m="xl">
+      <Title order={1} ta="center" m="xl">
         お知らせ
       </Title>
 
@@ -52,7 +53,7 @@ export default function News() {
               onClick={() => handleCardClick(item.id)}
               style={{ cursor: "pointer" }}
             >
-              <Group position="apart" style={{ marginBottom: "10px" }}>
+              <Group style={{ marginBottom: "10px" }}>
                 <Text size="xs" color="dimmed">
                   {item.date}
                 </Text>
@@ -61,7 +62,7 @@ export default function News() {
                 </Badge>
               </Group>
 
-              <Text weight={700} size="lg" style={{ marginBottom: "10px" }}>
+              <Text fw={700} size="lg" style={{ marginBottom: "10px" }}>
                 {item.title}
               </Text>
 

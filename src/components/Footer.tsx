@@ -4,16 +4,16 @@ export default function Footer() {
   return (
     <Box
       bg="#98dbce"
-      sx={{
-        padding: "20px 0",
-        width: "100%",
-        marginTop: "auto",
-      }}
+      // sx={{
+      //   padding: "20px 0",
+      //   width: "100%",
+      //   marginTop: "auto",
+      // }}
     >
       <Container mb={20}>
         <Center>
           <div style={{ textAlign: "center" }}>
-            <Title order={2} align="center" mt={"xl"} mb={"sm"} c={"white"}>
+            <Title order={2} ta="center" mt={"xl"} mb={"sm"} c={"white"}>
               語学センター・留学サポート そよ風
             </Title>
 

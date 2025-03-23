@@ -2,11 +2,14 @@ import { Title, Table, Loader, Center, Container, Text } from "@mantine/core";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+type AboutDataType = {
+  [key: string]: string;
+};
+
 export default function About() {
-  const [aboutData, setAboutData] = useState(null);
+  const [aboutData, setAboutData] = useState<AboutDataType | null>(null);
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
-
 
   useEffect(() => {
     async function fetchAbout() {
@@ -32,7 +35,7 @@ export default function About() {
 
   return (
     <div>
-      <Title order={1} align="center" mb="xl" m={40}>
+      <Title order={1} ta="center" mb="xl" m={40}>
         会社情報
       </Title>
       <Container style={{ marginTop: "40px", marginBottom: "40px" }}>

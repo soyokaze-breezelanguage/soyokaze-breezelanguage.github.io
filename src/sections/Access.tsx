@@ -3,7 +3,7 @@ import { Title, Container, Text, Flex } from "@mantine/core";
 export default function Access() {
   return (
     <Container mb={50}>
-      <Title order={1} align="center" mb="xl">
+      <Title order={1} ta="center" mb="xl">
         アクセス
       </Title>
       {/* <Title order={2} align="center" mb="xl">

@@ -38,7 +38,7 @@ export default function Teachers() {
 
   return (
     <Container size="md" style={{ marginTop: "40px", marginBottom: "40px" }}>
-      <Title order={1} align="center" mb="xl">
+      <Title order={1} ta="center" mb="xl">
         講師紹介
       </Title>
 
@@ -46,14 +46,16 @@ export default function Teachers() {
         {teachers.map((teacher, index) => (
           <Grid.Col key={index} span={{ base: 12, sm: 6 }}>
             <Card shadow="sm" padding="lg" radius="md" withBorder>
-              <Group align="center" justify="center"  mb="md">
-                <Avatar src={imageMap[teacher.image]} size={250} radius="xl" />
+              <Group align="center" justify="center" mb="md">
+                <Avatar
+                  src={teacher.image ? imageMap[teacher.image] : undefined}
+                  size={250}
+                  radius="xl"
+                />
               </Group>
 
-              <Title order={3} align="center">
-                {teacher.name}
-              </Title>
-              <Text size="sm" align="center" color="dimmed" mb="sm">
+              <Title order={3}>{teacher.name}</Title>
+              <Text size="sm" color="dimmed" mb="sm">
                 {teacher.position}
               </Text>
 

@@ -20,7 +20,7 @@ export default function FAQ() {
 
   return (
     <Container size="md" style={{ marginTop: "40px", marginBottom: "40px" }}>
-      <Title order={1} align="center" mb="xl">
+      <Title order={1} ta="center" mb="xl">
         レッスンQ＆A
       </Title>
 
@@ -28,7 +28,7 @@ export default function FAQ() {
         {faqList.map((item, index) => (
           <Accordion.Item key={index} value={item.question}>
             <Accordion.Control>
-              <Text c={"blue"} >Q</Text>
+              <Text c={"blue"}>Q</Text>
               {item.question}
             </Accordion.Control>
             <Accordion.Panel>
