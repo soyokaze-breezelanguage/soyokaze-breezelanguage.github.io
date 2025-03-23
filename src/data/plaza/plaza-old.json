@@ -1,0 +1,39 @@
+[
+  {
+    "title": "生徒様の中国語1　- 中文的電影與電視劇",
+    "description": "全球第一個中文詞彙語意網路。",
+    "image": "cwn",
+    "link": "https://lopentu.github.io/CwnWeb/#home",
+    "content": "記念すべき第1回目のそよ風の広場は当センターの生徒、呷飽沒さんによる中国語の作文です。中文的電影與電視劇 by 呷飽沒2022/5/12我從開始學習中文後，看了很多中文電影和電視劇。它們跟我的中文能力是分不開的。（這個經驗對我的中文學習很有幫助。）我透過那些作品能理解中國和台灣各自的歷史和習俗，但是仍然覺得自己理解得不够多。我覺得台灣的作品和中國的有一點不一樣。哪裡不一樣呢？我想不一樣的地方也許是在台灣的作品裡，經常出現中文、台灣話、客家話、原住民語和日語等等的很多語言；在中國的作品裡一般講的是中文而己，有的還是配音。現在有很多台灣演員演出大陸電影和電視劇，播出時戲裡的聲音常常是配音的，如果知道他們的真正的聲音的話，會覺得有點奇怪。還有，台灣的多樣性，真的很棒。像是台北捷運的車内廣播就是一個例子。甚至台鐵南迴線的廣播也有原住民語，可能是阿美族語吧！我感覺到台灣人互相尊重的印象，有包容性。這段時間，我在「そよ風」學習關於魏德聖導演的《海角七號》的文章。我看過這部電影，那時候對電影裡的語言方面感到很有意思，我還想戰前戰後一定有跟電影劇情一樣的故事。電影的最後，茂伯仔唱“野玫瑰花”的時候，我每次都會掉眼涙。"
+  },
+  {
+    "title": "MultiMoco NTU",
+    "description": "錄製數位電視公共頻道、擷取臺灣立法院議事轉播，收錄數種臺灣國家語言， 透過跨文化交流的模態分析，更廣泛且深入地探究各種語言構式。",
+    "image": "moco",
+    "link": "https://multimoco.linguistics.ntu.edu.tw/index.html#content-stat"
+  },
+  {
+    "title": "Taiwan Social Media Corpus",
+    "description": "SoMe 為收錄了 PTT 和 Dcard 兩大論壇的語料庫。作為一個台灣特有的 BBS 系統，PTT 記錄了珍貴而有趣的社會語言文化現象。提供了語言接觸與演化和「精簡語言學」重要的經驗訊息。",
+    "image": "ptt_corp",
+    "link": "http://140.112.147.132/"
+  },
+  {
+    "title": "Chinese variation",
+    "description": "台灣國語和中國普通話的平行語料庫。",
+    "image": "chi_var",
+    "link": "https://lopen.linguistics.ntu.edu.tw/chivar/"
+  },
+  {
+    "title": "Lopatator",
+    "description": "Lopen 語料標記系統",
+    "image": "lopotator",
+    "link": "https://lopen.linguistics.ntu.edu.tw/lope.anno/"
+  },
+  {
+    "title": "Chinese Word Map (CWM)",
+    "description": "中文詞彙地圖是一個以華語文教學爲目的的詞彙知識素描混搭系統。",
+    "image": "cwm",
+    "link": "http://lope.linguistics.ntu.edu.tw/cwm/"
+  }
+]
