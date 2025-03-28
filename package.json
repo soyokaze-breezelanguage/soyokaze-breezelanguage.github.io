@@ -1,7 +1,6 @@
 {
   "name": "soyokaze-website",
   "private": true,
-  "homepage": "https://soyokaze-breezelanguage.github.io/soyokaze-breezelanguage.github.io",  
   "version": "0.0.0",
   "type": "module",
   "scripts": {

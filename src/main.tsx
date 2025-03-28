@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Router basename="/soyokaze-breezelanguage.github.io">
+    <Router>
       <MantineProvider>
         <App />
       </MantineProvider>
