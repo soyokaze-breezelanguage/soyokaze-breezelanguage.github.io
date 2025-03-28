@@ -9,7 +9,7 @@ import {
   Group,
 } from "@mantine/core";
 
-import sai from "../assets/images/teachers/sai.jpg"
+import sai from "../assets/images/teachers/sai.jpg";
 import miyake from "../assets/images/teachers/miyake.jpg";
 
 type Teacher = {
@@ -22,10 +22,10 @@ type Teacher = {
 export default function Teachers() {
   const [teachers, setTeachers] = useState<Teacher[]>([]);
 
-    const imageMap: { [key: string]: string } = {
-      sai,
-      miyake,
-    };
+  const imageMap: { [key: string]: string } = {
+    sai,
+    miyake,
+  };
 
   useEffect(() => {
     async function fetchTeachers() {
@@ -53,13 +53,11 @@ export default function Teachers() {
                   radius="xl"
                 />
               </Group>
-
-              <Title order={3}>{teacher.name}</Title>
-              <Text size="sm" color="dimmed" mb="sm">
+              <Title order={3} mb={5}>{teacher.name}</Title>
+              <Text size="sm" c="dimmed" mb="sm">
                 {teacher.position}
               </Text>
-
-              <Text size="sm">{teacher.bio}</Text>
+              <Text size="md">{teacher.bio}</Text>
             </Card>
           </Grid.Col>
         ))}
