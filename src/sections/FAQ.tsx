@@ -1,4 +1,4 @@
-import { Accordion, Container, Text, Title } from "@mantine/core";
+import { Accordion, Container, Flex, Text, Title } from "@mantine/core";
 import { useEffect, useState } from "react";
 
 type FAQItem = {
@@ -28,12 +28,20 @@ export default function FAQ() {
         {faqList.map((item, index) => (
           <Accordion.Item key={index} value={item.question}>
             <Accordion.Control>
-              <Text c={"blue"}>Q</Text>
-              {item.question}
+              <Flex>
+                <Text c={"blue"} fw={700} mr={10}>
+                  Q
+                </Text>
+                {item.question}
+              </Flex>
             </Accordion.Control>
             <Accordion.Panel>
-              <Text c={"red"}>A</Text>
-              {item.answer}
+              <Flex>
+                <Text c={"red"} fw={700} mr={10}>
+                  A
+                </Text>
+                {item.answer}
+              </Flex>
             </Accordion.Panel>
           </Accordion.Item>
         ))}

@@ -54,11 +54,13 @@ export default function News() {
               style={{ cursor: "pointer" }}
             >
               <Group style={{ marginBottom: "10px" }}>
-                <Text size="xs" color="dimmed">
+                <Text size="sm" c={"dimmed"}>
                   {item.date}
                 </Text>
-                <Badge color="blue" variant="light">
-                  {item.tag}
+                <Badge color="teal" variant="light">
+                  <Text size="sm" fw={700} c={"#4FC5AE"}>
+                    {item.tag}
+                  </Text>
                 </Badge>
               </Group>
 
