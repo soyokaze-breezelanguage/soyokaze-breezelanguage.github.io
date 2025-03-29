@@ -8,6 +8,7 @@ import Introduction from "../sections/Introduction";
 import FAQ from "./FAQ";
 import Teachers from "./Teachers";
 import Access from "./Access";
+import LessonTypes from "./LessonTypes";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <MainVisual />
       <Introduction />
       <News />
+      <LessonTypes/>
       <Price />
       <Flow />
       <Plaza />
